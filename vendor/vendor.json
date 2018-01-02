@@ -1,6 +1,87 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"checksumSHA1": "FvgbKIN9MTCG8skmOkqk4DU2O84=",
+			"path": "github.com/adam-hanna/jwt-auth/jwt",
+			"revision": "ac543da2efe0877a3066b63ae9764bc57adb433c",
+			"revisionTime": "2017-07-28T21:19:40Z"
+		},
+		{
+			"checksumSHA1": "ynw+B27Rf8vig7I1LqqukIApSUw=",
+			"origin": "github.com/adam-hanna/jwt-auth/jwt/vendor/github.com/adam-hanna/randomstrings",
+			"path": "github.com/adam-hanna/randomstrings",
+			"revision": "ac543da2efe0877a3066b63ae9764bc57adb433c",
+			"revisionTime": "2017-07-28T21:19:40Z"
+		},
+		{
+			"checksumSHA1": "5NKG3DOBT9niJl1ibvkkg6GiOhY=",
+			"origin": "github.com/adam-hanna/jwt-auth/jwt/vendor/github.com/dgrijalva/jwt-go",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "ac543da2efe0877a3066b63ae9764bc57adb433c",
+			"revisionTime": "2017-07-28T21:19:40Z"
+		},
+		{
+			"checksumSHA1": "mM/Qet/C83drOFKe8m1DsXjx0qY=",
+			"path": "github.com/justinas/alice",
+			"revision": "03f45bd4b7dad4734bc4620e46a35789349abb20",
+			"revisionTime": "2017-10-23T06:44:55Z"
+		},
+		{
+			"checksumSHA1": "oCH3J96RWvO8W4xjix47PModpio=",
+			"path": "golang.org/x/crypto/bcrypt",
+			"revision": "0fcca4842a8d74bfddc2c96a073bd2a4d2a7a2e8",
+			"revisionTime": "2017-11-25T19:00:56Z"
+		},
+		{
+			"checksumSHA1": "oVPHWesOmZ02vLq2fglGvf+AMgk=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "0fcca4842a8d74bfddc2c96a073bd2a4d2a7a2e8",
+			"revisionTime": "2017-11-25T19:00:56Z"
+		},
+		{
+			"checksumSHA1": "P0bIJYp/dWbtup5rXhkCvplNIek=",
+			"path": "jwt-auth-testing",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		},
+		{
+			"checksumSHA1": "TgYiIop2x8f1/qDJWNXQPiTRoXA=",
+			"path": "jwt-auth-testing/db",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		},
+		{
+			"checksumSHA1": "pZFLaYahAeoCarW4LQNdT0EEizw=",
+			"path": "jwt-auth-testing/db/models",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		},
+		{
+			"checksumSHA1": "x116EzJX3XWrEfYw78X5e+CUmvk=",
+			"path": "jwt-auth-testing/randomstrings",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		},
+		{
+			"checksumSHA1": "mZjn3YZtzG5pgHxO1Rv/3vjyZag=",
+			"path": "jwt-auth-testing/server",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		},
+		{
+			"checksumSHA1": "uu41qXu1kRT70cZMYXuxWQ51+Vw=",
+			"path": "jwt-auth-testing/server/handlers",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		},
+		{
+			"checksumSHA1": "IhiSgWrM4xZzLIwVGCwHu6Yj6oc=",
+			"path": "jwt-auth-testing/server/templates",
+			"revision": "381a3c5ee786d10114ef3b16f07ef801dcba0ee9",
+			"revisionTime": "2018-01-02T11:52:52Z"
+		}
+	],
 	"rootPath": "jwt-auth-testing"
 }

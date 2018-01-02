@@ -4,7 +4,7 @@
 package db
 
 import (
-	"../randomstrings"
+	"jwt-auth-testing/randomstrings"
 	"jwt-auth-testing/db/models"
 
 	"errors"

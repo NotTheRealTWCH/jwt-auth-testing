@@ -14,7 +14,7 @@ func main() {
 	// init the DB
 	db.InitDB()
 	
-	db.StoreUser("test", password, "user")
+	db.StoreUser("test", "password", "user")
 
 	// start the server
 	serverErr := server.StartServer(host, port)

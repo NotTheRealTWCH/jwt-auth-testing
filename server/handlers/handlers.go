@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"../../db"
-	"../templates"
+	"jwt-auth-testing/db"
+	"jwt-auth-testing/server/templates"
 	"github.com/adam-hanna/jwt-auth/jwt"
 )
 

@@ -4,6 +4,7 @@ import (
 	"jwt-auth-testing/db"
 	"jwt-auth-testing/server"
 	"log"
+	"os"
 )
 
 var host = "localhost"

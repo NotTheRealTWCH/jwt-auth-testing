@@ -1,8 +1,8 @@
 package main
 
 import (
-	"./db"
-	"./server"
+	"jwt-auth-testing/db"
+	"jwt-auth-testing/server"
 	"log"
 )
 

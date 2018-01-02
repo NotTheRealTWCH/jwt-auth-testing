@@ -5,7 +5,7 @@ package db
 
 import (
 	"../randomstrings"
-	"db/models"
+	"jwt-auth-testing/db/models"
 
 	"errors"
 	"golang.org/x/crypto/bcrypt"

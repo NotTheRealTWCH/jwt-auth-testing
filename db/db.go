@@ -50,7 +50,7 @@ func StoreUser(username string, password string, role string) (uuid string, err 
 		return
 	}
 	
-	fmt.Printf(passwordHash)
+	fmt.Printf("passwordHash: " + passwordHash)
 
 	users[uuid] = models.User{username, passwordHash, role}
 
@@ -137,6 +137,6 @@ func generateBcryptHash(password string) (string, error) {
 }
 
 func checkPasswordAgainstHash(hash string, password string) error {
-	fmt.Printf(hash)
+	fmt.Printf("hash: " + hash)
 	return bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
 }

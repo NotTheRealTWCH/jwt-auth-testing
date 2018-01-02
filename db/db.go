@@ -5,7 +5,7 @@ package db
 
 import (
 	"../randomstrings"
-	"./models"
+	"db/models"
 
 	"errors"
 	"golang.org/x/crypto/bcrypt"

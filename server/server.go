@@ -1,7 +1,7 @@
 package server
 
 import (
-	"./handlers"
+	"jwt-auth-testing/server/handlers"
 	"log"
 	"net/http"
 )

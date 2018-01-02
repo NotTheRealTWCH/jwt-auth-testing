@@ -7,8 +7,8 @@ import (
 	"os"
 )
 
-var host = "localhost"
-var port = "8000"
+var host = ""
+var port = os.Getenv("PORT")
 
 func main() {
 	// init the DB

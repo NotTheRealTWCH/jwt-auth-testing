@@ -135,6 +135,8 @@ func generateBcryptHash(password string) (string, error) {
 }
 
 func checkPasswordAgainstHash(hash string, password string) error {
+	fmt.Println("Test: ")
 	fmt.Println(bcrypt.CompareHashAndPassword([]byte(hash), []byte(password)))
+	fmt.Println(" - ")
 	return bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
 }

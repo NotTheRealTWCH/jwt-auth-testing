@@ -8,7 +8,6 @@ import (
 	"jwt-auth-testing/db/models"
 
 	"errors"
-	"fmt"
 	"golang.org/x/crypto/bcrypt"
 	"log"
 )

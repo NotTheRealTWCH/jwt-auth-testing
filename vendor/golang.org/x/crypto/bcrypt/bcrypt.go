@@ -97,13 +97,13 @@ func GenerateFromPassword(password []byte, cost int) ([]byte, error) {
 // CompareHashAndPassword compares a bcrypt hashed password with its possible
 // plaintext equivalent. Returns nil on success, or an error on failure.
 func CompareHashAndPassword(hashedPassword, password []byte) error {
-	fmt.Printf(newFromHash(hashedPassword))
+	fmt.Printf("test1: " + newFromHash(hashedPassword) + " - ")
 	p, err := newFromHash(hashedPassword)
 	if err != nil {
 		return err
 	}
 
-	fmt.Printf(bcrypt(password, p.cost, p.salt))
+	fmt.Printf("test1: " + bcrypt(password, p.cost, p.salt) + " - ")
 	otherHash, err := bcrypt(password, p.cost, p.salt)
 	if err != nil {
 		return err

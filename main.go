@@ -13,8 +13,6 @@ var port = os.Getenv("PORT")
 func main() {
 	// init the DB
 	db.InitDB()
-	
-	db.StoreUser("test", "password", "user")
 
 	// start the server
 	serverErr := server.StartServer(host, port)
